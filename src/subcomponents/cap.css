@@ -1,0 +1,85 @@
+.Btn {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: #005f99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 8px 8px 0px rgb(12, 12, 12);
+    transition-duration: .3s;
+  }
+  
+  .Layer {
+    width: 60px;
+    position: absolute;
+    left: -30px;
+    transition-duration: .3s;
+    animation: spin 5s  linear infinite;
+  }
+  
+  .Btn:hover {
+    transform: translateY(5px);
+    box-shadow: 3px 3px 0px black;
+    transition-duration: .3s;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Btn:hover .Layer {
+    left: 0%;
+    width: 100%;
+    transition-duration: .3s;
+  }
+  
+  .text {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    position: absolute;
+    z-index: 2;
+    transition-duration: .1s;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .Btn:hover .text {
+    color: transparent;
+    transition-duration: .3s;
+  }
+  /* svg colors */
+  .cls-1 {
+    fill: #242021;
+  }
+  
+  .cls-2 {
+    fill: #e82728;
+  }
+  
+  .cls-3 {
+    fill: #fefefe;
+  }
+  
+  .cls-4 {
+    fill: #e92728;
+  }
+  
+  .cls-5 {
+    fill: #005f99;
+  }
+  
+  .cls-6 {
+    fill: #fff;
+  }
+  /* svg colors */
