@@ -39,8 +39,8 @@ const SocialIcons = (props) => {
           href="https://github.com/yoga2000"
         >
           <Github
-            width={35}
-            height={35}
+            width={25}
+            height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
@@ -56,6 +56,8 @@ const SocialIcons = (props) => {
           href="https://www.linkedin.com/in/yogaraj0310/"
         >
           <LinkedIn
+            width={25}
+            height={25}
             x
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />

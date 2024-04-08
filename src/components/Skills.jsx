@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { SparklesCore } from "../subcomponents/sparkles";
+// import { SparklesCore } from "../subcomponents/sparkles";
 import { Develope, PowerBtn } from "./AllSvgs";
 import PowerButton from "../subcomponents/PowerButton";
 import SocialIcons from "../subcomponents/SocialIcons";
@@ -14,7 +14,7 @@ export default function Skills() {
     <ThemeProvider theme={lightTheme}>
       <div className="h-screen  relative w-full bg-black flex  items-center justify-center overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 h-screen">
-          <SparklesCore
+          {/* <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
             minSize={0.6}
@@ -22,7 +22,7 @@ export default function Skills() {
             particleDensity={100}
             className="w-full h-full"
             particleColor="#FFFFFF"
-          />
+          /> */}
           <PowerButton />
         </div>
         <motion.div

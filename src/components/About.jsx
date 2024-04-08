@@ -5,7 +5,7 @@ import PowerButton from "../subcomponents/PowerButton";
 import astronaut from "../assets/images/spaceman.png";
 import { DarkTheme } from "./theme";
 import BigTitlte from "../subcomponents/BigTitle";
-import { Particle } from "../subcomponents/particle";
+// import { Particle } from "../subcomponents/particle";
 import { motion } from "framer-motion";
 
 const Box = styled.div`
@@ -79,7 +79,7 @@ const AboutPage = () => {
         </Main>
 
         <BigTitlte text="ABOUT" top="10%" left="5%" />
-        <Particle id="tsparticles" particlesLoaded={() => {}} options={{}} />
+        {/* <Particle id="tsparticles" particlesLoaded={() => {}} options={{}} /> */}
       </Box>
     </ThemeProvider>
   );

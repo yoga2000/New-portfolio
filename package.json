@@ -10,17 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tsparticles/react": "^3.0.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.12",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-particles-js": "^3.6.0",
-    "react-router-dom": "^6.22.3",
     "styled-components": "^6.1.8",
-    "tailwind-merge": "^2.2.1",
-    "tsparticles": "^3.3.0"
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
@@ -32,7 +28,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.35",
+    "react-router-dom": "^6.22.3",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.1.6"
+    "vite": "^5.2.8"
   }
 }
