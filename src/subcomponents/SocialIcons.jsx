@@ -68,7 +68,7 @@ const SocialIcons = (props) => {
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1 }}
       >
-        <a
+        {/* <a
           target="_blank"
           href="file:///C:/Users/yogar/Desktop/yogarajResume.pdf"
           style={{ color: "inherit" }}
@@ -79,7 +79,7 @@ const SocialIcons = (props) => {
             height={35}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
-        </a>
+        </a> */}
       </motion.div>
       <Line
         color={props.theme}
