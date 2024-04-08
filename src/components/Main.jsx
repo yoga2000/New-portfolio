@@ -7,9 +7,8 @@ import SocialIcons from "../subcomponents/SocialIcons";
 import { motion } from "framer-motion";
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
-import { Link } from "@react-email/components";
 
-const Contact = styled(Link)`
+const Contact = styled.a`
   color: ${(props) => props.theme.text};
   position: absolute;
   top: 2rem;
