@@ -7,6 +7,7 @@ import { DarkTheme } from "./theme";
 import BigTitlte from "../subcomponents/BigTitle";
 // import { Particle } from "../subcomponents/particle";
 import { motion } from "framer-motion";
+import { SparklesCore } from "../subcomponents/sparkles";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -58,6 +59,16 @@ const AboutPage = () => {
     <ThemeProvider theme={DarkTheme}>
       <Box>
         <Logo theme="dark" />
+
+        <SparklesCore
+          id="tsparticlesfullpage"
+          background="transparent"
+          minSize={0.6}
+          maxSize={1.4}
+          particleDensity={100}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
+        />
         <PowerButton />
 
         <Spaceman>
