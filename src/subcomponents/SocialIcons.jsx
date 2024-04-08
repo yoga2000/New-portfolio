@@ -68,7 +68,12 @@ const SocialIcons = (props) => {
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1 }}
       >
-        <a target="_blank" style={{ color: "inherit" }} to="/">
+        <a
+          target="_blank"
+          href="file:///C:/Users/yogar/Desktop/yogarajResume.pdf"
+          style={{ color: "inherit" }}
+          to="/"
+        >
           <Resume
             width={35}
             height={35}
