@@ -2,7 +2,18 @@
 import React from "react";
 
 import { SparklesCore } from "../subcomponents/sparkles";
-import { Css, Rct, Html, Tail, Js, PowerBtn, Sql } from "./AllSvgs";
+import {
+  Css,
+  Rct,
+  Html,
+  Tail,
+  Js,
+  PowerBtn,
+  Sql,
+  MongoDB,
+  Java,
+  Nodejs,
+} from "./AllSvgs";
 import PowerButton from "../subcomponents/PowerButton";
 import SocialIcons from "../subcomponents/SocialIcons";
 import { ThemeProvider } from "styled-components";
@@ -75,30 +86,30 @@ export default function Skills() {
           <h2 className="text-[#FCF6F4] absolute top-20 lg:top-24 text-2xl md:text-6xl font-bold text-center">
             Skills
           </h2>
-          <div className="grid grid-cols-3 gap-6 text-white lg:grid-cols-6 lg:gap-44">
+          <div className="grid grid-cols-2 gap-y-4 gap-x-24 text-white lg:grid-cols-4 lg:gap-y-10 lg:gap-x-80">
             <div className="flex flex-col items-center">
               <Html className="h-28 w-28 " />
-              <p>HTML</p>
             </div>
             <div className="flex flex-col items-center">
               <Css className="h-28 w-28 " />
-              <p>CSS</p>
             </div>
             <div className="flex flex-col items-center">
               <Rct className="h-28 w-28 " />
-              <p>React</p>
             </div>
             <div className="flex flex-col items-center">
               <Js className="h-28 w-28" />
-              <p>Javascript</p>
             </div>
             <div className="flex flex-col items-center">
               <Tail className="h-28 w-28 " />
-              <p>TailwindCSS</p>
             </div>
             <div className="flex flex-col items-center">
-              <Sql className="h-28 w-28 " />
-              <p>SQL</p>
+              <MongoDB className="h-28 w-28 " />
+            </div>
+            <div className="flex flex-col items-center">
+              <Java className="h-28 w-28 " />
+            </div>
+            <div className="flex flex-col items-center">
+              <Nodejs className="h-28 w-28 " />
             </div>
           </div>
         </Vortex>

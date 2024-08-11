@@ -81,12 +81,12 @@ const AboutPage = () => {
           />
         </Spaceman>
         <Main>
-          "I am a dedicated frontend developer with a passion for crafting web
-          applications that are pivotal to the overall success of the product. I
-          thoroughly enjoy the process of building web applications that
-          seamlessly blend functionality and aesthetics, empowering users with
-          intuitive and efficient digital experiences. Additionally, I would
-          like to play games like Chess and Cricket."
+          "I am a fresher MERN full stack developer with a strong passion for
+          building web applications that are essential to the success of the
+          product. I enjoy the challenge of developing web applications that
+          combine functionality and design, creating intuitive and efficient
+          digital experiences for users. I also have a keen interest in playing
+          games like Chess and Cricket."
         </Main>
 
         <BigTitlte text="ABOUT" top="10%" left="5%" />

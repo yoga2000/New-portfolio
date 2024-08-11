@@ -3,23 +3,22 @@
 export const WorkData = [
   {
     id: 1,
-    name: "Furniverse",
+    name: "Food Rush",
     description:
-      "It is build on top of the React JS and tailwind css with the features of shopping cart functionality and filterting systems",
-    tags: ["react", "tailwind", "Api"],
-
-    demo: "https://furniverse.vercel.app/",
-    github: "https://github.com/yoga2000/Furniverse",
+      "Developed Food Rush, a dynamic web application that enhances the food ordering and delivery experience using the MERN stack.",
+    tags: ["React", "Tailwind", "MongoDB,Express.Js,Node.Js"],
+    demo: "https://food-rush-frontend.onrender.com",
+    github: "https://github.com/yoga2000/food-rush",
   },
-  {
-    id: 2,
-    name: "Blogs",
-    description:
-      "Created a blog website with CRUD (Create, Read, Update, Delete) functionality integrated with APIs",
+  // {
+  //   id: 2,
+  //   name: "Blogs",
+  //   description:
+  //     "Created a blog website with CRUD (Create, Read, Update, Delete) functionality integrated with APIs",
 
-    tags: ["react", "API"],
+  //   tags: ["react", "API"],
 
-    demo: "https://blogs-app-six.vercel.app/",
-    github: "https://github.com/yoga2000/Blogs",
-  },
+  //   demo: "https://blogs-app-six.vercel.app/",
+  //   github: "https://github.com/yoga2000/Blogs",
+  // },
 ];
