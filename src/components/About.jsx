@@ -60,33 +60,15 @@ const AboutPage = () => {
       <Box>
         <Logo theme="dark" />
 
-        <SparklesCore
-          id="tsparticlesfullpage"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-        />
+        <SparklesCore id="tsparticlesfullpage" background="transparent" minSize={0.6} maxSize={1.4} particleDensity={100} className="w-full h-full" particleColor="#FFFFFF" />
         <PowerButton />
 
         <Spaceman>
-          <motion.img
-            src={astronaut}
-            alt="spaceman"
-            initial={{ scale: 0, y: 400, x: -500 }}
-            animate={{ x: 0, y: 0, scale: [0.5, 1] }}
-            transition={{ type: "spring", duration: 5 }}
-          />
+          <motion.img src={astronaut} alt="spaceman" initial={{ scale: 0, y: 400, x: -500 }} animate={{ x: 0, y: 0, scale: [0.5, 1] }} transition={{ type: "spring", duration: 5 }} />
         </Spaceman>
         <Main>
-          "I am a fresher MERN full stack developer with a strong passion for
-          building web applications that are essential to the success of the
-          product. I enjoy the challenge of developing web applications that
-          combine functionality and design, creating intuitive and efficient
-          digital experiences for users. I also have a keen interest in playing
-          games like Chess and Cricket."
+          "I am a MERN full stack developer with a strong passion for building web applications that are essential to the success of the product. I enjoy the challenge of developing web applications
+          that combine functionality and design, creating intuitive and efficient digital experiences for users. I also have a keen interest in playing games like Chess and Cricket."
         </Main>
 
         <BigTitlte text="ABOUT" top="10%" left="5%" />

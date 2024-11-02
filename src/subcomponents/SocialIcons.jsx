@@ -22,52 +22,22 @@ const Icons = styled.div`
 const Line = styled.span`
   width: 2px;
   height: 8rem;
-  background-color: ${(props) =>
-    props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+  background-color: ${(props) => (props.color === "dark" ? DarkTheme.text : DarkTheme.body)};
 `;
 const SocialIcons = (props) => {
   return (
     <Icons>
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1 }}
-      >
-        <a
-          target="_blank"
-          style={{ color: "inherit" }}
-          href="https://github.com/yoga2000"
-        >
-          <Github
-            width={25}
-            height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
-          />
+      <motion.div initial={{ scale: 0 }} animate={{ scale: [0, 1, 1.5, 1] }} transition={{ type: "spring", duration: 1, delay: 1 }}>
+        <a target="_blank" style={{ color: "inherit" }} href="https://github.com/yoga2000">
+          <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </a>
       </motion.div>
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1 }}
-      >
-        <a
-          target="_blank"
-          style={{ color: "inherit" }}
-          href="https://www.linkedin.com/in/yogaraj-h/"
-        >
-          <LinkedIn
-            width={25}
-            height={25}
-            x
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
-          />
+      <motion.div initial={{ scale: 0 }} animate={{ scale: [0, 1, 1.5, 1] }} transition={{ type: "spring", duration: 1, delay: 1 }}>
+        <a target="_blank" style={{ color: "inherit" }} href="https://www.linkedin.com/in/yogaraj-h-b94a012a2/">
+          <LinkedIn width={25} height={25} x fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </a>
       </motion.div>
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1 }}
-      >
+      <motion.div initial={{ scale: 0 }} animate={{ scale: [0, 1, 1.5, 1] }} transition={{ type: "spring", duration: 1, delay: 1 }}>
         {/* <a
           target="_blank"
           href="file:///C:/Users/yogar/Desktop/yogarajResume.pdf"
